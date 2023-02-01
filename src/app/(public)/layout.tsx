@@ -1,3 +1,5 @@
+import './globals.css'
+
 export default function RootLayout({
   children,
 }: {
@@ -7,7 +9,7 @@ export default function RootLayout({
     <html>
       <head />
       <body>
-        <h1>Login - Sistema Olá Mundo</h1>
+        <h1  className="text-3xl font-bold underline">Login - Sistema Olá Mundo</h1>
         <hr />
         {children}
       </body>
