@@ -1,4 +1,5 @@
-import './globals.css'
+import Navbar from "./landing/components/Navbar";
+import "./globals.css";
 
 export default function RootLayout({
   children,
@@ -9,9 +10,8 @@ export default function RootLayout({
     <html>
       <head />
       <body>
-        <h1  className="text-3xl font-bold underline">Login - Sistema Olá Mundo</h1>
-        <hr />
-        {children}
+        <Navbar />
+        <>{children}</>
       </body>
     </html>
   );
