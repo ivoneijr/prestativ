@@ -1,4 +1,6 @@
-'use client'
+'use client';
+
+import Image from 'next/image';
 
 export default function LoginPage() {
   return (
@@ -13,7 +15,7 @@ export default function LoginPage() {
       */}
       <div className="flex min-h-full flex-col justify-center py-12 sm:px-6 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
-          <img
+          <Image
             className="mx-auto h-20 w-auto"
             src="/prestativ-logo.png"
             alt="Your Company"
@@ -24,7 +26,10 @@ export default function LoginPage() {
           <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
             <form className="space-y-6" action="#" method="POST">
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium text-gray-700"
+                >
                   Email
                 </label>
                 <div className="mt-1">
@@ -40,7 +45,10 @@ export default function LoginPage() {
               </div>
 
               <div>
-                <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+                <label
+                  htmlFor="password"
+                  className="block text-sm font-medium text-gray-700"
+                >
                   Senha
                 </label>
                 <div className="mt-1">
@@ -63,13 +71,19 @@ export default function LoginPage() {
                     type="checkbox"
                     className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                   />
-                  <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-900">
+                  <label
+                    htmlFor="remember-me"
+                    className="ml-2 block text-sm text-gray-900"
+                  >
                     Remember me
                   </label>
                 </div>
 
                 <div className="text-sm">
-                  <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                  <a
+                    href="#"
+                    className="font-medium text-indigo-600 hover:text-indigo-500"
+                  >
                     Forgot your password?
                   </a>
                 </div>
@@ -88,5 +102,5 @@ export default function LoginPage() {
         </div>
       </div>
     </>
-  )
+  );
 }

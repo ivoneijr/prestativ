@@ -1,10 +1,10 @@
-import "./globals.css";
+import './globals.css';
 
-import Navbar from "./components/Navbar";
-import ScrollToTopButton from "./components/ScrollToTop";
+import Navbar from './components/Navbar';
+import ScrollToTopButton from './components/ScrollToTop';
 
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode;
 }) {

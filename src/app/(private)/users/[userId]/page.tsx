@@ -10,7 +10,7 @@ export async function generateStaticParams() {
 }
 
 export default async function UserDetailsPage({
-  params,
+  params
 }: {
   params: { userId: string };
 }) {

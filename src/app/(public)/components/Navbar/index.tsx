@@ -1,47 +1,48 @@
-"use client";
+'use client';
 
-import { Fragment } from "react";
-import { Popover, Transition } from "@headlessui/react";
+import { Fragment } from 'react';
+import { Popover, Transition } from '@headlessui/react';
 import {
   Bars3Icon,
   ChatBubbleBottomCenterTextIcon,
   ChatBubbleLeftRightIcon,
   InboxIcon,
   QuestionMarkCircleIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
+  XMarkIcon
+} from '@heroicons/react/24/outline';
+import { ChevronDownIcon } from '@heroicons/react/20/solid';
+import Image from 'next/image';
 
 const solutions = [
   {
-    name: "Inbox",
+    name: 'Inbox',
     description:
-      "Get a better understanding of where your traffic is coming from.",
-    href: "#",
-    icon: InboxIcon,
+      'Get a better understanding of where your traffic is coming from.',
+    href: '#',
+    icon: InboxIcon
   },
   {
-    name: "Messaging",
-    description: "Speak directly to your customers in a more meaningful way.",
-    href: "#",
-    icon: ChatBubbleBottomCenterTextIcon,
+    name: 'Messaging',
+    description: 'Speak directly to your customers in a more meaningful way.',
+    href: '#',
+    icon: ChatBubbleBottomCenterTextIcon
   },
   {
-    name: "Live Chat",
+    name: 'Live Chat',
     description: "Your customers' data will be safe and secure.",
-    href: "#",
-    icon: ChatBubbleLeftRightIcon,
+    href: '#',
+    icon: ChatBubbleLeftRightIcon
   },
   {
-    name: "Knowledge Base",
+    name: 'Knowledge Base',
     description: "Connect with third-party tools that you're already using.",
-    href: "#",
-    icon: QuestionMarkCircleIcon,
-  },
+    href: '#',
+    icon: QuestionMarkCircleIcon
+  }
 ];
 
 function classNames(...classes: any) {
-  return classes.filter(Boolean).join(" ");
+  return classes.filter(Boolean).join(' ');
 }
 
 export default function Example() {
@@ -53,7 +54,7 @@ export default function Example() {
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <a href="#">
                 <span className="sr-only">Prestativ</span>
-                <img
+                <Image
                   className="h-8 w-auto sm:h-10"
                   src="/prestativ-logo.png"
                   alt=""
@@ -74,15 +75,15 @@ export default function Example() {
                   <>
                     <Popover.Button
                       className={classNames(
-                        open ? "text-orange-600" : "text-gray-500",
-                        "group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-orange-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                        open ? 'text-orange-600' : 'text-gray-500',
+                        'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-orange-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
                       )}
                     >
                       <span>Soluções</span>
                       <ChevronDownIcon
                         className={classNames(
-                          open ? "text-gray-600" : "text-gray-400",
-                          "ml-2 h-5 w-5 group-hover:text-orange-500"
+                          open ? 'text-gray-600' : 'text-gray-400',
+                          'ml-2 h-5 w-5 group-hover:text-orange-500'
                         )}
                         aria-hidden="true"
                       />

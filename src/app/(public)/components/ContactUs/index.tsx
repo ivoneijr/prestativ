@@ -1,4 +1,4 @@
-import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
+import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
 
 export default function ContactUs() {
   return (
@@ -109,7 +109,7 @@ export default function ContactUs() {
                     rows={4}
                     className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                     placeholder="Menssagem"
-                    defaultValue={""}
+                    defaultValue={''}
                   />
                 </div>
                 <div>

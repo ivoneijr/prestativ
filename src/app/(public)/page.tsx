@@ -15,7 +15,6 @@ export default function LandingPage() {
         <Hero />
         <Partners />
         <Benefits />
-
         <Who />
         <ContactUs />
         <FAQ />

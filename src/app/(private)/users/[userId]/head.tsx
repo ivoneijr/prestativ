@@ -1,7 +1,7 @@
 import { getUserById } from '../services/get-user-by-id';
 
 export default async function UserDetailsHead({
-  params,
+  params
 }: {
   params: { userId: string };
 }) {
