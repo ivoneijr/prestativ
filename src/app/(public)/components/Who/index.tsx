@@ -33,7 +33,7 @@ export default function Who() {
       <div className="absolute inset-x-0 bottom-0 h-80 xl:top-0 xl:h-full">
         <div className="h-full w-full xl:grid xl:grid-cols-2">
           <div className="h-full xl:relative xl:col-start-2">
-            <Image
+            <img
               className="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
               src="landing/team.jpeg"
               alt="Pessoas felizes no por do sol"

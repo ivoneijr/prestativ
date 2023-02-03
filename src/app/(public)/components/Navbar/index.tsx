@@ -54,10 +54,10 @@ export default function Example() {
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <a href="#">
                 <span className="sr-only">Prestativ</span>
-                <Image
+                <img
                   className="h-8 w-auto sm:h-10"
                   src="/prestativ-logo.png"
-                  alt=""
+                  alt="logo marca prestativ"
                 />
               </a>
             </div>
