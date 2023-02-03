@@ -1,5 +1,7 @@
-import Navbar from "./landing/components/Navbar";
 import "./globals.css";
+
+import Navbar from "./components/Navbar";
+import ScrollToTopButton from "./components/ScrollToTop";
 
 export default function RootLayout({
   children,
@@ -12,6 +14,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         <>{children}</>
+        <ScrollToTopButton />
       </body>
     </html>
   );
