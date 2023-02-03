@@ -27,7 +27,7 @@ const metrics = [
 
 export default function Who() {
   return (
-    <div className="relative bg-orange-600">
+    <div id="quem-somos" className="relative bg-orange-600">
     <div className="absolute inset-x-0 bottom-0 h-80 xl:top-0 xl:h-full">
       <div className="h-full w-full xl:grid xl:grid-cols-2">
         <div className="h-full xl:relative xl:col-start-2">

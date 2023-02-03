@@ -143,7 +143,7 @@ export default function Example() {
                 Benefícios
               </a>
               <a
-                href="#anchor1"
+                href="#quem-somos"
                 className="text-base font-medium text-gray-500 hover:text-orange-600"
               >
                 Quem somos
