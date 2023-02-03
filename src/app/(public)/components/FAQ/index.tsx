@@ -65,8 +65,8 @@ export default function FAQ() {
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
                       {
-                        faq.answers.map(answer =>
-                          <p className="text-base leading-7 text-gray-600">{answer}</p>)
+                        faq.answers.map((answer, i) =>
+                          <p key={i} className="text-base leading-7 text-gray-600">{answer}</p>)
                       }
                     </Disclosure.Panel>
                   </>
