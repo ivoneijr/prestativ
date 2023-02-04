@@ -1,12 +1,12 @@
 'use client';
 
-import Benefits from './components/Benefits';
-import ContactUs from './components/ContactUs';
-import FAQ from './components/FAQ';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Partners from './components/Partners';
-import Who from './components/Who';
+import Benefits from './_components/Benefits';
+import ContactUs from './_components/ContactUs';
+import FAQ from './_components/FAQ';
+import Footer from './_components/Footer';
+import Hero from './_components/Hero';
+import Partners from './_components/Partners';
+import Who from './_components/Who';
 
 export default function LandingPage() {
   return (
