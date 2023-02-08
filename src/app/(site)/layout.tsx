@@ -1,7 +1,7 @@
 import './globals.css';
 
-import Navbar from './_components/Navbar';
-import ScrollToTopButton from './_components/ScrollToTop';
+import Navbar from './components/Navbar';
+import ScrollToTopButton from './components/ScrollToTop';
 
 export default function RootLayout({
   children
