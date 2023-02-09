@@ -1,5 +1,5 @@
-const HomePage = () => {
-  return <div>internal HomePage</div>;
-};
+'use client';
 
-export default HomePage;
+export default function Dashboard() {
+  return <>DASHBOARD</>;
+}

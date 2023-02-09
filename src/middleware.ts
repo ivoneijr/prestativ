@@ -1,6 +1,6 @@
 export { default } from 'next-auth/middleware';
 
-export const config = { matcher: ['/app/dashboard'] };
+export const config = { matcher: ['/app'] };
 
 // // export { default } from "next-auth/middleware";
 // import { withAuth } from 'next-auth/middleware';
