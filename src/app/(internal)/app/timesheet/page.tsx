@@ -1,3 +1,11 @@
+import Page from '../_components/layout/Page';
+
 export default function Timesheet() {
-  return <>Estou no timesheet</>;
+  return (
+    <>
+      <Page title="Timesheet" description="Controle de horas">
+        Timesheet
+      </Page>
+    </>
+  );
 }
