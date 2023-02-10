@@ -12,7 +12,7 @@ export default function LoginPage() {
 
     try {
       await signIn('credentials', {
-        callbackUrl: '/app/dashboard',
+        callbackUrl: '/app',
         redirect: true,
         email,
         password

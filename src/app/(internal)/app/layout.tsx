@@ -101,7 +101,9 @@ export default function RootLayout({
                   <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                 </button>
               </div>
-              <main className="flex-1">{children}</main>
+              <main className="flex-1 bg-gray-100">
+                <div className="py-6 h-screen">{children}</div>
+              </main>
             </div>
           </div>
         </body>
