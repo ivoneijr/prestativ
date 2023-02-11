@@ -55,7 +55,7 @@ export default function UsersTable({ users, loading }: any) {
                     <TableRowPlaceHolder cols={5} />
                   ) : (
                     users.map((user: any) => (
-                      <tr key={user.id}>
+                      <tr key={user.id} className="hover:bg-gray-100">
                         <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm sm:pl-6">
                           <div className="flex items-center">
                             <div className="h-10 w-10 flex-shrink-0">
