@@ -43,14 +43,12 @@ export default function Users() {
       title="Usuários"
       description="Lista completa de usuários que possuem acvesso ao app Prestativ"
     >
-      <div className="px-4 sm:px-6 md:px-8 mt-8">
-        <SearchInput
-          onChange={(e: any) => {
-            setQ(e.target.value);
-          }}
-          onKeyDown={handleSearchPress}
-        />
-      </div>
+      <SearchInput
+        onChange={(e: any) => {
+          setQ(e.target.value);
+        }}
+        onKeyDown={handleSearchPress}
+      />
       <UsersTable users={users} loading={loading} />
       <Fab />
     </Page>
