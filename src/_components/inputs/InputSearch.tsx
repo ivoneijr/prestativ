@@ -1,9 +1,8 @@
 interface Props {
-  onChange?: (e?: React.ChangeEvent<HTMLInputElement>) => void;
-  onKeyDown: (e: React.KeyboardEvent<HTMLInputElement>) => void;
+  onKeyDown: (e: any) => void;
 }
 
-export function SearchInput({ onChange, onKeyDown }: Props) {
+export function SearchInput({ onKeyDown }: Props) {
   return (
     <div className="w-full">
       <div className="relative flex items-center w-full h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden shadow ring-1 ring-black ring-opacity-5">
@@ -28,7 +27,6 @@ export function SearchInput({ onChange, onKeyDown }: Props) {
           className="peer h-full w-full outline-none text-sm text-gray-700 pr-2 border-none"
           type="text"
           id="search"
-          onChange={onChange}
           onKeyDown={onKeyDown}
           placeholder="Search something.."
         />

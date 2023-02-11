@@ -4,7 +4,11 @@ import {
   LockOpenIcon,
   ClockIcon,
   BookOpenIcon,
-  FolderIcon
+  FolderIcon,
+  PencilSquareIcon,
+  XMarkIcon,
+  EllipsisHorizontalIcon,
+  EllipsisVerticalIcon
 } from '@heroicons/react/24/outline';
 
 export default function Icon({
@@ -32,6 +36,18 @@ export default function Icon({
 
     case 'folder':
       return <FolderIcon {...props} />;
+
+    case 'pencil-square':
+      return <PencilSquareIcon {...props} />;
+
+    case 'x-mark':
+      return <XMarkIcon {...props} />;
+
+    case 'ellipsis-horizontal':
+      return <EllipsisHorizontalIcon {...props} />;
+
+    case 'ellipsis-vertical':
+      return <EllipsisVerticalIcon {...props} />;
 
     default:
       return <>-no icon-</>;

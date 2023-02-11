@@ -3,7 +3,7 @@
 import { ReactNode } from 'react';
 import { SessionProvider } from 'next-auth/react';
 
-import Sidebar from './_components/layout/Sidebar';
+import Sidebar from '../../../_components/layout/Sidebar';
 
 import './globals.css';
 

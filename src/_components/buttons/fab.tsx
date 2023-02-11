@@ -7,6 +7,7 @@ import {
   UserPlusIcon,
   BarsArrowUpIcon
 } from '@heroicons/react/24/outline';
+import Icon from '../Icon';
 
 const items = [
   {
@@ -26,9 +27,9 @@ const Fab = () => {
         onClick={() => setExpanded(!expanded)}
       >
         {expanded ? (
-          <ArrowDownIcon width={18} height={18} />
+          <Icon name="ellipsis-vertical" width={18} height={18} />
         ) : (
-          <BarsArrowUpIcon width={18} height={18} className="" />
+          <Icon name="ellipsis-horizontal" width={18} height={18} />
         )}
       </button>
 
